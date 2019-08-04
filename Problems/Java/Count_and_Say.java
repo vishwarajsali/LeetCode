@@ -1,35 +1,36 @@
-package Java;
 /**
  * Count_and_Say
  */
 public class Count_and_Say {
 
     public static void main(String[] args) {
-        System.out.print(CountandSay(5));
+        int n = 3;
+        System.out.println(countAndSay(n));
     }
 
-    public static String CountandSay(int num){
+    public static String countAndSay(int n) {
         String str = "1";
-
         int i = 2;
-        while(i<=num){
+
+        while (i <= n) {
             StringBuilder temp = new StringBuilder();
             char prev = str.charAt(0);
-            int counter = 1;
+            int count = 1;
             int j = 1;
-            while(j < str.length()){
-                char ch = str.charAt(j);
-                if (prev != ch) {
-                    temp.append(counter);
+            while (j < str.length()) {
+                char curr = str.charAt(j);
+                if(prev != curr){
+                    temp.append(count);
                     temp.append(prev);
-                    counter = 1;
-                    prev = ch;
-                } else counter ++;
-
+                    count =1;
+                    prev = curr;
+                } else count++;
                 j++;
             }
-            temp.append(counter);
+
+            temp.append(count);
             temp.append(prev);
+
             str = temp.toString();
 
             i++;
