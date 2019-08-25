@@ -26,7 +26,7 @@ package Java;
 public class Sqrt_x_69 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		System.out.println(mySqrt(16));
 		
 	}
