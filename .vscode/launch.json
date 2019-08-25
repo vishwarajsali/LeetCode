@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RemoveNthNodeFromEndofList",
+            "request": "launch",
+            "mainClass": "RemoveNthNodeFromEndofList"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "AddTwoNumbers"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Binary_Tree_Level_Order_Traversal_II",
+            "request": "launch",
+            "mainClass": "Binary_Tree_Level_Order_Traversal_II"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - one",
+            "request": "launch",
+            "mainClass": "Mock_Interview.Random.one",
+            "projectName": "LeetCode"
+        }
+    ]
+}
