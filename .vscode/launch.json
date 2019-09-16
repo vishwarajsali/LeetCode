@@ -2,6 +2,36 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - K_Concatenation_Maximum_Sum",
+            "request": "launch",
+            "mainClass": "K_Concatenation_Maximum_Sum"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Maximum_Number_of_Balloons",
+            "request": "launch",
+            "mainClass": "Maximum_Number_of_Balloons"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Traversal",
+            "request": "launch",
+            "mainClass": "Traversal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Rotate_List",
+            "request": "launch",
+            "mainClass": "Rotate_List"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Merge_Two_Sorted_Lists",
+            "request": "launch",
+            "mainClass": "Merge_Two_Sorted_Lists"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RemoveNthNodeFromEndofList",
             "request": "launch",
             "mainClass": "RemoveNthNodeFromEndofList"
