@@ -1,6 +1,9 @@
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.Stack;
+
+
 
 /**
  * Traversal
@@ -18,7 +21,8 @@ public class Traversal {
 
         //System.out.println(traversal.preorderTraversal(root));
         //System.out.println(traversal.inorderTraversal(root));
-        System.out.println(traversal.postorderTraversal(root));
+        //System.out.println(traversal.postorderTraversal(root));
+        System.out.println(traversal.levelOrder(root));
     }
 
     public List<Integer> preorderTraversal(TreeNode root) {
@@ -66,29 +70,47 @@ public class Traversal {
 
     public List<Integer> postorderTraversal(TreeNode root) {
      
+        
         List<Integer> list = new LinkedList<>();
         Stack<TreeNode> stack = new Stack<>();
-       
+        if(root == null) return list;
         stack.push(root);
 
         while(!stack.isEmpty()){
-
             TreeNode curr = stack.pop();
-            while(curr.left != null){
-                stack.push(curr);
-                System.out.println(curr.val);
-                curr = curr.left;
-            }
-
-            curr = stack.pop();
-            list.add(curr.val);
-
-
-            if(curr.right!= null) stack.push(curr.right);
-            
-
+            list.add(0, curr.val);
+            if (curr.left != null) {
+                stack.add(curr.left);
+              }
+              if (curr.right != null) {
+                stack.add(curr.right);
+              }
         }
 
+        return list;
+    }
+
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        
+        List<Integer> list1;
+        List<List<Integer>> list = new LinkedList<>();
+
+       Queue<TreeNode> queue = new LinkedList<>();
+       if(root == null) return list;
+
+       queue.offer(root);
+       while(!queue.isEmpty()){
+           int level = queue.size();
+           list1 = new LinkedList<>();
+           for(int i = 0; i< level; i++){
+               if(queue.peek().left != null) queue.offer(queue.peek().left);
+               if(queue.peek().right != null) queue.offer(queue.peek().right);
+               list1.add(queue.poll().val);
+           }
+           list.add(list1);
+       }
+       
+    
         return list;
     }
 }

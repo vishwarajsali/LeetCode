@@ -1,0 +1,32 @@
+/**
+ * Longest_Palindromic_Substring
+ */
+public class Longest_Palindromic_Substring {
+
+    public static void main(String[] args) {
+        String s = "babad";
+
+        Longest_Palindromic_Substring lps = new Longest_Palindromic_Substring();
+
+        System.out.println(lps.longestPalindrome(s));
+    }
+
+    public String longestPalindrome(String s) {
+        int len = s.length();
+        String res =null;
+        
+        boolean[][] freq = new boolean[len][len];
+
+        for(int i = len -1; i>=0;i--){
+            for(int j = i; j< len; j++){
+                freq[i][j] = s.charAt(i) == s.charAt(j);
+
+                if(freq[i][j]){
+                    res = s.substring(i,j+1);
+                }
+            }
+        }
+        System.out.println(Arry);
+        return res;
+    }
+}

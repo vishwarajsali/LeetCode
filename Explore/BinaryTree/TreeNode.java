@@ -1,7 +1,7 @@
 /**
  * TreeNode
  */
-public class TreeNode {
+class TreeNode {
     int val;
     TreeNode right, left;
 

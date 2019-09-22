@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Minimum_Absolute_Difference",
+            "request": "launch",
+            "mainClass": "Minimum_Absolute_Difference",
+            "projectName": "LeetCode_1d35badc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Longest_Palindromic_Substring",
+            "request": "launch",
+            "mainClass": "Longest_Palindromic_Substring",
+            "projectName": "LeetCode_1d35badc"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - K_Concatenation_Maximum_Sum",
             "request": "launch",
             "mainClass": "K_Concatenation_Maximum_Sum"
