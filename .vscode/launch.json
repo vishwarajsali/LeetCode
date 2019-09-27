@@ -2,6 +2,19 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Symmetric_Tree",
+            "request": "launch",
+            "mainClass": "Explore.BinaryTree.Symmetric_Tree",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Longest_Palindromic_Substring",
+            "request": "launch",
+            "mainClass": "Longest_Palindromic_Substring"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Minimum_Absolute_Difference",
             "request": "launch",
             "mainClass": "Minimum_Absolute_Difference",

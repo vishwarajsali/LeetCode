@@ -19,14 +19,13 @@ public class Longest_Palindromic_Substring {
 
         for(int i = len -1; i>=0;i--){
             for(int j = i; j< len; j++){
-                freq[i][j] = s.charAt(i) == s.charAt(j);
+                freq[i][j] = s.charAt(i) == s.charAt(j) && (j-i <3 || freq[i+1][j-1]);
 
-                if(freq[i][j]){
+                if(freq[i][j] && (res == null || j -i +1 > res.length())){
                     res = s.substring(i,j+1);
                 }
             }
         }
-        System.out.println(Arry);
         return res;
     }
 }
