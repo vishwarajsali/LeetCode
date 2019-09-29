@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GetEqualSubstringsWithinBudget",
+            "request": "launch",
+            "mainClass": "Contest.WeeklyContest156.GetEqualSubstringsWithinBudget",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UniqueNumberofOccurrences",
+            "request": "launch",
+            "mainClass": "Contest.WeeklyContest156.UniqueNumberofOccurrences",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Symmetric_Tree",
             "request": "launch",
             "mainClass": "Explore.BinaryTree.Symmetric_Tree",
