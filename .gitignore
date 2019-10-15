@@ -136,3 +136,4 @@ fabric.properties
 
 bin/
 .vscode/
+.settings/
