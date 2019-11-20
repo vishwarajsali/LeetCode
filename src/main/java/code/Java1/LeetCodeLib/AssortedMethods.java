@@ -4,12 +4,14 @@ package LeetCodeLib;
  * AssortedMethods
  */
 public class AssortedMethods {
-    public static void printLinklist(ListNode root){
+    public static String printLinklist(ListNode root){
+        String result = "";
         while(root != null){
-            System.out.printf("%d --> ",root.val);
+            result += root.val;
+            //System.out.printf("%d --> ",root.val);
             root = root.next;
         }
-        System.out.print("Null");
+        return result;
     }
 
     public static ListNode createListToArray(int[] array){

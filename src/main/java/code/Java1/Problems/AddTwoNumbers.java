@@ -25,7 +25,7 @@ public class AddTwoNumbers {
 
         AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
         ListNode result =  addTwoNumbers.addTwoNumbers(l1, l2);
-        AssortedMethods.printLinklist(result);
+        System.out.println(AssortedMethods.printLinklist(result));
 
     }
 

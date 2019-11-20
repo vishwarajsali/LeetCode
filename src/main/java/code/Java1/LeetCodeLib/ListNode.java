@@ -11,7 +11,6 @@ public class ListNode {
         this.val = val;
         next = null;
     }
-
-
-   
 }
+
+

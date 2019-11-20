@@ -137,3 +137,4 @@ fabric.properties
 bin/
 .vscode/
 .settings/
+target/
