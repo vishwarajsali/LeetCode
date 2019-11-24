@@ -1,4 +1,4 @@
-package Chapters.BinaryTree;
+package code.Chapters.BinaryTree;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
