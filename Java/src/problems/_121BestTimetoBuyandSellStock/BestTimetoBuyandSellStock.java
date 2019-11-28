@@ -6,10 +6,21 @@ package problems._121BestTimetoBuyandSellStock;
 public class BestTimetoBuyandSellStock {
 
     public static void main(String[] args) {
-        int[] prices = {7,6,4,3,1};
-        //{7,1,5,3,6,4};
-        System.out.println(maxProfit1(prices));
+        int[] prices = //{7,6,4,3,1};
+        {7,1,5,3,6,4};
+        System.out.println(maxProfit(prices));
     }
+
+    public static int maxProfit(int[] prices) {
+        int minPrice = Integer.MAX_VALUE, maxprofit = 0;
+        for(int price : prices){
+            if(price < minPrice) minPrice = price;
+            else maxprofit =  Math.max(price - minPrice, maxprofit);
+        }
+
+       return maxprofit;
+       
+   }
 
 
     //brute force
@@ -31,6 +42,5 @@ public class BestTimetoBuyandSellStock {
         }
 
         return maxPro;
-        
     }
 }
