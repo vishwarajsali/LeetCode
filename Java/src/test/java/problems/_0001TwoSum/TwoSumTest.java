@@ -1,6 +1,7 @@
-package problems._1TwoSum;
+package problems._0001TwoSum;
 
 import org.junit.jupiter.api.Test;
+import problems._0001TwoSum.TwoSum;
 
 import java.util.Arrays;
 
