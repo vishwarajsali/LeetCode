@@ -13,7 +13,7 @@ class MinStack {
 
     }
 
-    public void push(int x) {
+    public void push(final int x) {
         if(x <= min){          
             stack.push(min);
             min=x;
