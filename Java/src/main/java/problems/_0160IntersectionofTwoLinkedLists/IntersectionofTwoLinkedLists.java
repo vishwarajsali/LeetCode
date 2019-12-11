@@ -14,18 +14,18 @@ public class IntersectionofTwoLinkedLists {
         ListNode listA = ListNode.createArraytoList(a);
         ListNode listB = ListNode.createArraytoList(b);
         ListNode listInter = ListNode.createArraytoList(intersect);
-        
-        ListNode listInterA =  ListNode.intersectListNode(listA, listInter);
-        ListNode listInterB =  ListNode.intersectListNode(listB, listInter);
 
-        ListNode.printList(getIntersectionNode(listInterA, listInterB));
+        listA.mergeListNode(listInter);
+        listB.mergeListNode(listInter);
+
+        getIntersectionNode(listA, listB).printList();
     }
 
     public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         
         ListNode currA = headA, currB = headB;
 
-        int lenA = ListNode.length(currA), lenB = ListNode.length(currB);
+        int lenA = currA.size(), lenB = currB.size();
 
         
          if(lenA > lenB){
