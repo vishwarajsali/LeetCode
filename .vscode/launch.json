@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InvertBinaryTree",
+            "request": "launch",
+            "mainClass": "problems._0226InvertBinaryTree.InvertBinaryTree",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "problems._0206ReverseLinkedList.ReverseLinkedList",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HouseRobber",
+            "request": "launch",
+            "mainClass": "problems._0198HouseRobber.HouseRobber",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MajorityElement",
+            "request": "launch",
+            "mainClass": "problems._0169MajorityElement.MajorityElement",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "problems._0160IntersectionofTwoLinkedLists.test",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IntersectionofTwoLinkedLists",
+            "request": "launch",
+            "mainClass": "problems._0160IntersectionofTwoLinkedLists.IntersectionofTwoLinkedLists",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RegularExpressionMatching",
+            "request": "launch",
+            "mainClass": "problems._0010RegularExpressionMatching.RegularExpressionMatching",
+            "projectName": "Java"
+        }
+    ]
+}
