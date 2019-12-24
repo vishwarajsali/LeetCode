@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PalindromeLinkedList",
+            "request": "launch",
+            "mainClass": "problems._0234PalindromeLinkedList.PalindromeLinkedList",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InvertBinaryTree",
             "request": "launch",
             "mainClass": "problems._0226InvertBinaryTree.InvertBinaryTree",
