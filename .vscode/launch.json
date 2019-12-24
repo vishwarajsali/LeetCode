@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MoveZeroes",
+            "request": "launch",
+            "mainClass": "problems._0283MoveZeroes.MoveZeroes",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PalindromeLinkedList",
             "request": "launch",
             "mainClass": "problems._0234PalindromeLinkedList.PalindromeLinkedList",
