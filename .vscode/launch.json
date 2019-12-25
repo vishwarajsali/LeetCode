@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FindAllNumbersDisappearedinanArray",
+            "request": "launch",
+            "mainClass": "problems._0448FindAllNumbersDisappearedinanArray.FindAllNumbersDisappearedinanArray",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PathSum_III",
             "request": "launch",
             "mainClass": "problems._0437PathSum_III.PathSum_III",
