@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ContainerWithMostWater",
+            "request": "launch",
+            "mainClass": "problems._0011ContainerWithMostWater.ContainerWithMostWater",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ShortestUnsortedContinuousSubarray",
             "request": "launch",
             "mainClass": "problems._0581ShortestUnsortedContinuousSubarray.ShortestUnsortedContinuousSubarray",
