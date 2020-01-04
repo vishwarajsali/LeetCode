@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - _3Sum",
+            "request": "launch",
+            "mainClass": "problems._0015_3Sum._3Sum",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ContainerWithMostWater",
             "request": "launch",
             "mainClass": "problems._0011ContainerWithMostWater.ContainerWithMostWater",
