@@ -14,6 +14,7 @@ public class _3Sum {
         System.out.println(threeSum(nums));
     }
 
+    //code
     public static List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> result = new ArrayList<>();
