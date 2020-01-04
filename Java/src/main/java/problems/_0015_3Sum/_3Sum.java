@@ -32,8 +32,10 @@ public class _3Sum {
                 low++; hi--;
                 continue;
             }
-            ((nums[low] + nums[hi]) < sum) ? low++: hi--;
-        }
+                if((nums[low] + nums[hi]) < sum ) {
+                    low++;
+                } else hi--;
+            }
 
         }
         return result;
