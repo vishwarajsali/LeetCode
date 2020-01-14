@@ -2,7 +2,6 @@ package problems._0022GenerateParentheses;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * GenerateParentheses
