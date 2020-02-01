@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NextPermutation",
+            "request": "launch",
+            "mainClass": "problems._0031NextPermutation.NextPermutation",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ConvertSortedArraytoBinarySearchTree",
             "request": "launch",
             "mainClass": "problems._0108ConvertSortedArraytoBinarySearchTree.ConvertSortedArraytoBinarySearchTree",
