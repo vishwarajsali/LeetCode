@@ -3,12 +3,7 @@ package problems._0049GroupAnagrams;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Hashtable;
 import java.util.List;
-
-import scala.collection.IndexedSeqView.Map;
-import scala.collection.immutable.MapBuilderImpl;
-
 /**
  * GroupAnagrams
  */
