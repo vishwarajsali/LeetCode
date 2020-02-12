@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RotateImage",
+            "request": "launch",
+            "mainClass": "problems._0048RotateImage.RotateImage",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Permutations",
             "request": "launch",
             "mainClass": "problems._0046Permutations.Permutations",
