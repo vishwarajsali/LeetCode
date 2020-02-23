@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JumpGame",
+            "request": "launch",
+            "mainClass": "problems._0055JumpGame.JumpGame",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - GroupAnagrams",
             "request": "launch",
             "mainClass": "problems._0049GroupAnagrams.GroupAnagrams",
