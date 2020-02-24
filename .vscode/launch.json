@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MergeIntervals",
+            "request": "launch",
+            "mainClass": "problems._0056MergeIntervals.MergeIntervals",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JumpGame",
             "request": "launch",
             "mainClass": "problems._0055JumpGame.JumpGame",
