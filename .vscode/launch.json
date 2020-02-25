@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SortColors",
+            "request": "launch",
+            "mainClass": "problems._0075SortColors.SortColors",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumPathSum",
+            "request": "launch",
+            "mainClass": "problems._0064MinimumPathSum.MinimumPathSum",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UniquePaths",
+            "request": "launch",
+            "mainClass": "problems._0062UniquePaths.UniquePaths",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MergeIntervals",
             "request": "launch",
             "mainClass": "problems._0056MergeIntervals.MergeIntervals",
