@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - _5370DesignUndergroundSystem",
+            "request": "launch",
+            "mainClass": "Contest.WeeklyContest182._5370DesignUndergroundSystem",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ValidPalindromeII",
+            "request": "launch",
+            "mainClass": "problems._0680ValidPalindromeII.ValidPalindromeII",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sqrtx",
+            "request": "launch",
+            "mainClass": "problems._0069Sqrtx.Sqrtx",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WordSearch",
+            "request": "launch",
+            "mainClass": "problems._0079WordSearch.WordSearch",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SortColors",
             "request": "launch",
             "mainClass": "problems._0075SortColors.SortColors",
