@@ -1,3 +1,10 @@
 .class
 
-Java/target/classes/
+
+
+target/
+
+.setting/
+
+.idea/
+.vscode/

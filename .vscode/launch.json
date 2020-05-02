@@ -2,6 +2,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - April5",
+            "request": "launch",
+            "mainClass": "Explore.April30DayLeetCodingChallenge.Week1.April5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - April3",
+            "request": "launch",
+            "mainClass": "Explore.Week1.April3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - April2",
+            "request": "launch",
+            "mainClass": "Explore.Week1.April2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - April24",
+            "request": "launch",
+            "mainClass": "Explore.Week4.April24"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - _5370DesignUndergroundSystem",
             "request": "launch",
             "mainClass": "Contest.WeeklyContest182._5370DesignUndergroundSystem",
