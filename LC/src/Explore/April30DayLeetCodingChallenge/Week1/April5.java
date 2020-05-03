@@ -11,18 +11,14 @@ public class April5 {
     }
 
     public static int maxProfit(int[] prices) {
-        int sum = 0;
-        int prev = prices[0];
-        int buy = 0, sell = 0;
-        for(int i : prices){
-            if(prev > i){
-                buy = i;
-            }else {
-                sell= i;
+        if(prices == null || prices.length == 0) return 0;
+        int maxProfit = 0;
+        for(int i = 1; i< prices.length; i++){
+            if(prices[i] > prices[i-1]){
+                maxProfit += prices[i] - prices[i-1];
             }
-            sum += Math.max(sum, (sell - buy));
         }
 
-        return sum;
+        return maxProfit;
     }
 }

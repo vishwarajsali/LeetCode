@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - April6",
+            "request": "launch",
+            "mainClass": "Explore.April30DayLeetCodingChallenge.Week1.April6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - April5",
             "request": "launch",
             "mainClass": "Explore.April30DayLeetCodingChallenge.Week1.April5"
