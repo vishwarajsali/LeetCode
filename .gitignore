@@ -1,10 +1,7 @@
 .class
-
-
-
 target/
-
-.setting/
-
+.settings/
 .idea/
 .vscode/
+LC/.settings
+bin/
