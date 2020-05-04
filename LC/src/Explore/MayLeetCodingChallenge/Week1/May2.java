@@ -1,5 +1,8 @@
 package Explore.MayLeetCodingChallenge.Week1;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * May2
  */

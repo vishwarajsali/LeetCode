@@ -21,4 +21,8 @@ public class May1 {
         
         return start;
     }
+
+    boolean isBadVersion(int version){
+        return false;
+    }
 }

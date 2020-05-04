@@ -20,8 +20,8 @@ public class April2 {
             list.add(temp);
             int sum = 0;
             while(temp > 0){
-                i nt digit =  temp%10;
-                sum += (digit* d i git);
+                int digit =  temp%10;
+                sum += (digit* digit);
                 temp/=10; 
             }  
 

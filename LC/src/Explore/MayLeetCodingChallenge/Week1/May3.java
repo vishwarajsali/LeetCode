@@ -1,5 +1,8 @@
 package Explore.MayLeetCodingChallenge.Week1;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * May3
  */

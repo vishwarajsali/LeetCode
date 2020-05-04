@@ -1,5 +1,8 @@
 package Explore.Amazon.ArraysAndStrings;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * TwoSum
  */
