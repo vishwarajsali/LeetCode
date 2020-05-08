@@ -9,7 +9,7 @@ import java.util.List;
 public class April2 {
     public static void main(String[] args) {
         System.out.println(isHappy(2));
-     }
+    }
 
     public static boolean isHappy(int n) {
         int temp = n;
@@ -19,15 +19,13 @@ public class April2 {
                 return false;
             list.add(temp);
             int sum = 0;
-            while(temp > 0){
-                int digit =  temp%10;
-                sum += (digit* digit);
-                temp/=10; 
-            }  
+            while (temp > 0) {
+                int digit = temp % 10;
+                sum += (digit * digit);
+                temp /= 10;
+            }
 
-            
         }
-            return true;
-        }
+        return true;
+    }
 }
-
