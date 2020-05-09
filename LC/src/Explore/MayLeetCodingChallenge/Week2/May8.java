@@ -17,7 +17,7 @@ public class May8 {
         for(int i = 2; i< len; i++){
             int[] curr = coordinates[i];
               if(i == 2) {
-                  int[] second = coordinates[1];
+                  int[] second = curr;
                   int x  = (second[0] - first[0]), y =(second[1] - first[1]) ;
                   if(x == 0) return false;
                   m = y/x;   
