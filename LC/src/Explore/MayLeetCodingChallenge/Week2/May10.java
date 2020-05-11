@@ -11,7 +11,7 @@ public class May10 {
         System.out.println(findJudge(3, new int[][] {{1,3},{2,3}}));
     }
 
-    public int findJudge(int N, int[][] trust) {
+    public static int findJudge(int N, int[][] trust) {
         int[] trusts = new int[N+1];
  
          for(int[] t : trust){
