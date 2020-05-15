@@ -1,10 +1,5 @@
 package Explore.MayLeetCodingChallenge.Week2;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 public class May10 {
 
     public static void main(String[] args) {
