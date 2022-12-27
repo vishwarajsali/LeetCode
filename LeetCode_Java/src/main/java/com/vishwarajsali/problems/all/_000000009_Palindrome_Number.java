@@ -1,6 +1,6 @@
 package com.vishwarajsali.problems.all;
 
-public class _0000009_Palindrome_Number {
+public class _000000009_Palindrome_Number {
 
 
 
