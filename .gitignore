@@ -1,0 +1,7 @@
+*.class
+target/ 
+**/.idea/
+.vscode/ 
+bin/ 
+.settings/
+.DS_Store
