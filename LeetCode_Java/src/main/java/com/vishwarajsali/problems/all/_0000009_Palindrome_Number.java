@@ -1,4 +1,4 @@
-package com.vishwaraj.problems.all;
+package com.vishwarajsali.problems.all;
 
 public class _0000009_Palindrome_Number {
 

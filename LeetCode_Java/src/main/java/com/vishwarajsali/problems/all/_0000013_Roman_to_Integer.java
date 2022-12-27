@@ -1,4 +1,4 @@
-package com.vishwaraj.problems.all;
+package com.vishwarajsali.problems.all;
 
 import java.util.HashMap;
 import java.util.Map;
