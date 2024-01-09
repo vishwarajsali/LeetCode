@@ -1,7 +1,0 @@
-/**
- * LRUCache
- */
-public class LRUCache {
-
-    
-}
