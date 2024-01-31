@@ -1,5 +1,7 @@
 package dev.vishsali.dataStructureandAlgorithm.linkedList;
 
+import dev.vishsali.dataStructureandAlgorithm.linkedList.singly.Node;
+
 public class SinglyLinkedList {
     private Node head;
     private int size;
@@ -26,6 +28,7 @@ public class SinglyLinkedList {
     public void addAtTail(int val) {
         if (isEmpty()) {
             head = new Node(val);
+            size++;
             return;
         }
         Node node = new Node(val);
@@ -77,15 +80,5 @@ public class SinglyLinkedList {
     }
 
 
-    private static class Node {
-        private int val;
-        private Node next;
-
-        public Node(int val) {
-            this.val = val;
-            this.next = null;
-        }
-
-    }
 }
 
